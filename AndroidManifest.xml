@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    package="com.kms.AutoThinkingMachine"
+    platformBuildVersionCode="25"
+    platformBuildVersionName="7.1.1">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:theme="@ref/0x7f070163"
+        android:label="@ref/0x7f050021"
+        android:icon="@ref/0x7f020054"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:resizeableActivity="true">
+
+        <activity
+            android:label="@ref/0x7f050021"
+            android:name="com.kms.AutoThinkingMachine.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="관리자용"
+            android:name="com.kms.AutoThinkingMachine.Admin" />
+
+        <activity
+            android:label="설문지용"
+            android:name="com.kms.AutoThinkingMachine.From" />
+
+        <activity
+            android:label="통계"
+            android:name="com.kms.AutoThinkingMachine.end" />
+
+        <activity
+            android:label="설문목록"
+            android:name="com.kms.AutoThinkingMachine.list1" />
+    </application>
+</manifest>
